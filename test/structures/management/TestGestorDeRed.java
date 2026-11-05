@@ -20,6 +20,7 @@ public class TestGestorDeRed {
     void testAgregarEvento_DebeRegistrarEvento() {
         gestor.agregarEvento("Sensor EST-01 activo");
         // Este test fallará hasta que el TODO 1 sea implementado
+
         assertNotNull(gestor.obtenerEventosRecientes(1), "El historial no debería estar vacío");
     }
 
